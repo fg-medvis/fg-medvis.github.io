@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>MedVis Workshops</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- ** Plugins Needed for the Project ** -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <!-- slick slider -->
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <!-- themefy-icon -->
+  <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+  <!-- animation css -->
+  <link rel="stylesheet" href="plugins/animate/animate.css">
+  <!-- aos -->
+  <link rel="stylesheet" href="plugins/aos/aos.css">
+  <!-- venobox popup -->
+  <link rel="stylesheet" href="plugins/venobox/venobox.css">
+
+  <!-- Main Stylesheet -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+</head>
+
+<body>
+
+
+<!-- header -->
+<header class="fixed-top header">
+  <!-- top header -->
+  <div class="top-header py-2 bg-white">
+    <div class="container">
+      <div class="row no-gutters">
+        <div class="col-lg-4 text-center text-lg-left">
+          <ul class="list-inline d-inline">
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="https://gi.de/GI" target="_blank"><i class="ti-link"></i>GI</a></li>
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="https://www.curac.org/en/" target="_blank" alt="CURAC eV"><i class="ti-link"></i>CURAC</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-8 text-center text-lg-right">
+          <ul class="list-inline">
+            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="workshop-next.html">Upcoming Workshop</a></li>
+            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="appaward.html">Upcoming Award</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- navbar -->
+  <div class="navigation w-100">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light p-0">
+        <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
+        <button class="navbar-toggler rounded-0" type="button" data-toggle="collapse" data-target="#navigation"
+          aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navigation">
+          <ul class="navbar-nav ml-auto text-center">
+            <li class="nav-item">
+              <a class="nav-link" href="mission.html">Mission</a>
+            </li>
+            <li class="nav-item dropdown view">
+              <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Organisation
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="orga-gremium.html">Committee</a>
+                <a class="dropdown-item" href="orga-group.html">Members</a>
+                <a class="dropdown-item" href="orga-join.html">Become a Member</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown view">
+            <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Workshops
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                 <a class="dropdown-item" href="workshop.html">MedVis Workshops</a>
+                 <a class="dropdown-item" href="workshop-vcbm.html">Contributions to VCBM</a>
+              </div>
+             </li>
+            <li class="nav-item dropdown view">
+            <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+               Award
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                 <a class="dropdown-item" href="award.html">Roll of Honour</a>
+                 <a class="dropdown-item" href="appaward.html">Application</a>
+              </div>
+             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+</header>
+<!-- /header -->
+
+<!-- page title -->
+<section class="page-title-section overlay" data-background="images/ornament/bg-workshop2.jpg">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <ul class="list-inline custom-breadcrumb">
+          <li class="list-inline-item"><a class="h2 text-primary font-secondary" href="@@page-link">Workshops</a></li>
+          <li class="list-inline-item text-white h3 font-secondary @@nasted"></li>
+        </ul>
+        <p class="text-lighten">We offer annual meetings to our members and invited guests.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /page title -->
+
+<!-- Liste der Workshops -->
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <ul class="list-unstyled">
+<!--Example zum Kopieren
+- Datum ersetzen
+- href ersetzen
+	<li class="d-md-table mb-4 w-100 border-bottom hover-shadow">
+            <div class="d-md-table-cell text-center p-4 bg-primary text-white mb-4 mb-md-0"><span class="h2 d-block">2019</span>22+23 Jul</div>
+            <div class="d-md-table-cell px-4 vertical-align-middle mb-4 mb-md-0">
+              <a href="ws-detail-2019.html" class="h4 mb-3 d-block">MedVis Workhop</a>
+              <p class="mb-0">Meeting at Berlin<br>Organizers: Prof. Dr Anja Hennemuth and Prof. Dr Timo Ropinski</p>
+            </div>
+            <div class="d-md-table-cell text-right pr-0 pr-md-4"><a href="ws-detail-2019.html" class="btn btn-primary">Details</a></div>
+          </li>
+
+-->
+	<li class="d-md-table mb-4 w-100 border-bottom hover-shadow">
+            <div class="d-md-table-cell text-center p-4 bg-primary text-white mb-4 mb-md-0"><span class="h2 d-block">2020</span>18 Mar</div>
+            <div class="d-md-table-cell px-4 vertical-align-middle mb-4 mb-md-0">
+              <a href="workshop-next.html" class="h4 mb-3 d-block">MedVis Workhop</a>
+              <p class="mb-0">Meeting at Charit&eacute; Berlin<br>Organizers: Prof. Dr Anja Hennemuth and Prof. Dr Timo Ropinski</p>
+            </div>
+            <div class="d-md-table-cell text-right pr-0 pr-md-4"><a href="workshop-next.html" class="btn btn-primary">Details</a></div>
+          </li>
+
+	<li class="d-md-table mb-4 w-100 border-bottom hover-shadow">
+            <div class="d-md-table-cell text-center p-4 bg-primary text-white mb-4 mb-md-0"><span class="h2 d-block">2019</span>22+23 Jul</div>
+            <div class="d-md-table-cell px-4 vertical-align-middle mb-4 mb-md-0">
+              <a href="ws-detail-2019.html" class="h4 mb-3 d-block">MedVis Workhop</a>
+              <p class="mb-0">Meeting at Berlin<br>Organizers: Prof. Dr Anja
+Hennemuth and Prof. Dr Timo Ropinski</p>
+            </div>
+            <div class="d-md-table-cell text-right pr-0 pr-md-4"><a href="ws-detail-2019.html" class="btn btn-primary">Details</a></div>
+          </li>
+  
+	  <li class="d-md-table mb-4 w-100 border-bottom hover-shadow">
+            <div class="d-md-table-cell text-center p-4 bg-primary text-white mb-4 mb-md-0"><span class="h2 d-block">2018</span>12 April</div>
+            <div class="d-md-table-cell px-4 vertical-align-middle mb-4 mb-md-0">
+              <a href="ws-detail-2018.html" class="h4 mb-3 d-block">MedVis Workhop</a>
+              <p class="mb-0">Meeting at Ulm University<br>Organizers: Prof. Dr Timo Ropinski and Prof. Dr Anja Hennemuth</p>
+            </div>
+            <div class="d-md-table-cell text-right pr-0 pr-md-4"><a href="ws-detail-2018.html" class="btn btn-primary">Details</a></div>
+          </li>
+
+	<li class="d-md-table mb-4 w-100 border-bottom hover-shadow">
+            <div class="d-md-table-cell text-center p-4 bg-primary text-white mb-4 mb-md-0"><span class="h2 d-block">2017</span>16 Mar</div>
+            <div class="d-md-table-cell px-4 vertical-align-middle mb-4 mb-md-0">
+              <a href="ws-detail-2017.html" class="h4 mb-3 d-block">MedVis Workhop</a>
+              <p class="mb-0">Meeting at Otto von Guericke University, Magdeburg<br>Organizers: Prof. Dr Dorit Merhof and Dr Felix Ritter</p>
+            </div>
+            <div class="d-md-table-cell text-right pr-0 pr-md-4"><a href="ws-detail-2017.html" class="btn btn-primary">Details</a></div>
+          </li>
+	
+	  <li class="d-md-table mb-4 w-100 border-bottom hover-shadow">
+            <div class="d-md-table-cell text-center p-4 bg-primary text-white
+mb-4 mb-md-0"><span class="h2 d-block">2016</span>16 Mar</div>
+            <div class="d-md-table-cell px-4 vertical-align-middle mb-4 mb-md-0">
+              <a href="ws-detail-2016.html" class="h4 mb-3 d-block">MedVis Workhop</a>
+              <p class="mb-0">Meeting at Campus Berlin Mitte<br>Organizers: Prof. Dr Dorit Merhof and Dr Felix Ritter</p>
+            </div>
+            <div class="d-md-table-cell text-right pr-0 pr-md-4"><a href="ws-detail-2016.html" class="btn btn-primary">Details</a></div>
+          </li>
+	
+	  <li class="d-md-table mb-4 w-100 border-bottom hover-shadow">
+           <div class="d-md-table-cell text-center p-4 bg-primary text-white mb-4 mb-md-0"><span class="h2 d-block">2015</span>18 Mar</div>
+            <div class="d-md-table-cell px-4 vertical-align-middle mb-4 mb-md-0">
+              <a href="ws-detail-2015.html" class="h4 mb-3 d-block">MedVis Workhop</a>
+              <p class="mb-0">Meeting at<br>Organizers: Prof. Dr Dorit Merhof and Dr Stefan Zachow</p>
+            </div>
+            <div class="d-md-table-cell text-right pr-0 pr-md-4"><a href="ws-detail-2015.html" class="btn btn-primary">Details</a></div>
+          </li>
+	
+	  <li class="d-md-table mb-4 w-100 border-bottom hover-shadow">
+            <div class="d-md-table-cell text-center p-4 bg-primary text-white
+mb-4 mb-md-0"><span class="h2 d-block">2014</span>03 Sep</div>
+            <div class="d-md-table-cell px-4 vertical-align-middle mb-4 mb-md-0">
+              <a href="ws-detail-2014b.html" class="h4 mb-3 d-block">MedVis Workhop</a>
+              <p class="mb-0">Meeting at Altes AKH, Vienna<br>Organizers: Prof. Dr Dorit Merhof and Dr Stefan Zachow</p>
+            </div>
+            <div class="d-md-table-cell text-right pr-0 pr-md-4"><a href="ws-detail-2014b.html" class="btn btn-primary">Details</a></div>
+          </li>
+	
+	  <li class="d-md-table mb-4 w-100 border-bottom hover-shadow">
+            <div class="d-md-table-cell text-center p-4 bg-primary text-white
+mb-4 mb-md-0"><span class="h2 d-block">2014</span>14 Mar</div>
+            <div class="d-md-table-cell px-4 vertical-align-middle mb-4 mb-md-0">
+              <a href="ws-detail-2014a.html" class="h4 mb-3 d-block">MedVis Workhop</a>
+              <p class="mb-0">Meeting at RWTH Aachen, Lehrstuhl f&uuml;r
+Bildverarbeitung<br>Organizers: Prof. Dr Dorit Merhof
+and Dr Stefan Zachow</p>
+            </div>
+            <div class="d-md-table-cell text-right pr-0 pr-md-4"><a href="ws-detail-2014a.html" class="btn btn-primary">Details</a></div>
+          </li>
+
+	<li class="d-md-table mb-4 w-100 border-bottom hover-shadow">
+            <div class="d-md-table-cell text-center p-4 bg-primary text-white
+mb-4 mb-md-0"><span class="h2 d-block">2013</span>27 Nov</div>
+            <div class="d-md-table-cell px-4 vertical-align-middle mb-4 mb-md-0">
+              <a href="ws-detail-2014a.html" class="h4 mb-3 d-block">MedVis Workhop</a>
+              <p class="mb-0">Meeting at Ausstellungs- und Bildungs-Center
+Tirol (ABC Tirol)</p>
+            </div>
+            <div class="d-md-table-cell text-right pr-0 pr-md-4"><a href="ws-detail-2014a.html" class="btn btn-primary">Details</a></div>
+          </li>
+
+	<li class="d-md-table mb-4 w-100 border-bottom hover-shadow">
+            <div class="d-md-table-cell text-center p-4 bg-primary text-white
+mb-4 mb-md-0"><span class="h2 d-block">2013</span>6 Mar</div>
+            <div class="d-md-table-cell px-4 vertical-align-middle mb-4 mb-md-0">
+              <a href="ws-detail-2013.html" class="h4 mb-3 d-block">MedVis Workhop</a>
+              <p class="mb-0">Meeting at Heidelberg Collaboratory for Image
+Processing<br>Organizers: Jun.-Prof. Dr Dorit Merhof</p>
+            </div>
+            <div class="d-md-table-cell text-right pr-0 pr-md-4"><a href="ws-detail-2013.html" class="btn btn-primary">Details</a></div>
+          </li>
+	
+	  <li class="d-md-table mb-4 w-100 border-bottom hover-shadow">
+            <div class="d-md-table-cell text-center p-4 bg-primary text-white
+mb-4 mb-md-0"><span class="h2 d-block">2012</span>16 Nov</div>
+            <div class="d-md-table-cell px-4 vertical-align-middle mb-4 mb-md-0">
+              <a href="ws-detail-2012b.html" class="h4 mb-3 d-block">MedVis Workhop</a>
+              <p class="mb-0">Meeting at CURAC, D&uuml;sseldorf<br>Local Host: Dr Stefan Zachow and Jun.-Prof. Dorit Merhof</p>
+            </div>
+            <div class="d-md-table-cell text-right pr-0 pr-md-4"><a href="ws-detail-2012b.html" class="btn btn-primary">Details</a></div>
+          </li>
+
+	<li class="d-md-table mb-4 w-100 border-bottom hover-shadow">
+            <div class="d-md-table-cell text-center p-4 bg-primary text-white
+mb-4 mb-md-0"><span class="h2 d-block">2012</span>23 Mar</div>
+            <div class="d-md-table-cell px-4 vertical-align-middle mb-4 mb-md-0">
+              <a href="ws-detail-2012a.html" class="h4 mb-3 d-block">MedVis Workhop</a>
+              <p class="mb-0">Meeting at Zuse Institute Berlin<br>Organizerss:
+Prof. Dr Hans-Christian Hege and Prof. Dr Bernhard Preim</p>
+            </div>
+            <div class="d-md-table-cell text-right pr-0 pr-md-4"><a href="ws-detail-2012a.html" class="btn btn-primary">Details</a></div>
+          </li>
+
+	<li class="d-md-table mb-4 w-100 border-bottom hover-shadow">
+            <div class="d-md-table-cell text-center p-4 bg-primary text-white
+mb-4 mb-md-0"><span class="h2 d-block">2011</span>14 Sep</div>
+            <div class="d-md-table-cell px-4 vertical-align-middle mb-4 mb-md-0">
+              <a href="ws-detail-2011b.html" class="h4 mb-3 d-block">MedVis Workhop</a>
+              <p class="mb-0">Meeting at University of Magdeburg<br>Local
+host: Prof. Dr Bernhard Preim</p>
+            </div>
+            <div class="d-md-table-cell text-right pr-0 pr-md-4"><a href="ws-detail-2011b.html" class="btn btn-primary">Details</a></div>
+          </li>
+
+  	  <li class="d-md-table mb-4 w-100 border-bottom hover-shadow">
+            <div class="d-md-table-cell text-center p-4 bg-primary text-white mb-4 mb-md-0"><span class="h2 d-block">2011</span>23 Mar</div>
+            <div class="d-md-table-cell px-4 vertical-align-middle mb-4 mb-md-0">
+              <a href="ws-detail-2011a.html" class="h4 mb-3 d-block">MedVis Workhop</a>
+              <p class="mb-0">Meeting at University to L&uuml;beck<br>
+	      Organizers: Prof. Dr Bernd Fischer and Prof. Dr Bernhard Preim</p>
+            </div>
+            <div class="d-md-table-cell text-right pr-0 pr-md-4"><a href="ws-detail-2011a.html" class="btn btn-primary">Details</a></div>
+          </li>
+
+	<li class="d-md-table mb-4 w-100 border-bottom hover-shadow">
+            <div class="d-md-table-cell text-center p-4 bg-primary text-white
+mb-4 mb-md-0"><span class="h2 d-block">2010</span>18 Nov</div>
+            <div class="d-md-table-cell px-4 vertical-align-middle mb-4 mb-md-0">
+              <a href="ws-detail-2010b.html" class="h4 mb-3 d-block">MedVis Workhop</a>
+              <p class="mb-0">Meeting at CURAC conference,
+D&uuml;sseldorf<br>Organizers: Prof. Dr Bernhard Preim</p>
+            </div>
+            <div class="d-md-table-cell text-right pr-0 pr-md-4"><a href="ws-detail-2010b.html" class="btn btn-primary">Details</a></div>
+          </li>
+
+  	  <li class="d-md-table mb-4 w-100 border-bottom hover-shadow">
+            <div class="d-md-table-cell text-center p-4 bg-primary text-white
+mb-4 mb-md-0"><span class="h2 d-block">2010</span>17 Mar</div>
+            <div class="d-md-table-cell px-4 vertical-align-middle mb-4 mb-md-0">
+              <a href="ws-detail-2010a.html" class="h4 mb-3 d-block">MedVis Workhop</a>
+              <p class="mb-0">Meeting at University of M&uuml;nster<br>Organizers:
+PD Dr Timo Ropinski</p>
+            </div>
+            <div class="d-md-table-cell text-right pr-0 pr-md-4"><a href="ws-detail-2010a.html" class="btn btn-primary">Details</a></div>
+          </li>
+
+	<li class="d-md-table mb-4 w-100 border-bottom hover-shadow">
+            <div class="d-md-table-cell text-center p-4 bg-primary text-white
+mb-4 mb-md-0"><span class="h2 d-block">2009</span>16 Sep</div>
+            <div class="d-md-table-cell px-4 vertical-align-middle mb-4 mb-md-0">
+              <a href="ws-detail-2009b.html" class="h4 mb-3 d-block">MedVis Workhop</a>
+              <p class="mb-0">Meeting at Fraunhofer MEVIS Bremen</p>
+            </div>
+            <div class="d-md-table-cell text-right pr-0 pr-md-4"><a href="ws-detail-2009b.html" class="btn btn-primary">Details</a></div>
+          </li>
+
+	<li class="d-md-table mb-4 w-100 border-bottom hover-shadow">
+            <div class="d-md-table-cell text-center p-4 bg-primary text-white
+mb-4 mb-md-0"><span class="h2 d-block">2009</span>25 Mar</div>
+            <div class="d-md-table-cell px-4 vertical-align-middle mb-4 mb-md-0">
+              <a href="ws-detail-2009a.html" class="h4 mb-3 d-block">MedVis Workhop</a>
+              <p class="mb-0">Meeting after Workshop Bildverarbeitung f&uuml;r die Medizin (BVM)</p>
+            </div>
+            <div class="d-md-table-cell text-right pr-0 pr-md-4"><a href="ws-detail-2009a.html" class="btn btn-primary">Details</a></div>
+          </li>
+
+	<li class="d-md-table mb-4 w-100 border-bottom hover-shadow">
+            <div class="d-md-table-cell text-center p-4 bg-primary text-white
+mb-4 mb-md-0"><span class="h2 d-block">2008</span>24 Sep</div>
+            <div class="d-md-table-cell px-4 vertical-align-middle mb-4 mb-md-0">
+              <a href="ws-detail-2008b.html" class="h4 mb-3 d-block">MedVis Workhop</a>
+              <p class="mb-0">Meeting at Leipzig<br>CURAC</p>
+            </div>
+            <div class="d-md-table-cell text-right pr-0 pr-md-4"><a href="ws-detail-2008b.html" class="btn btn-primary">Details</a></div>
+          </li>
+
+	<li class="d-md-table mb-4 w-100 border-bottom hover-shadow">
+            <div class="d-md-table-cell text-center p-4 bg-primary text-white
+mb-4 mb-md-0"><span class="h2 d-block">2008</span>09 Apr</div>
+            <div class="d-md-table-cell px-4 vertical-align-middle mb-4 mb-md-0">
+              <a href="ws-detail-2008a.html" class="h4 mb-3 d-block">MedVis Workhop</a>
+              <p class="mb-0">Meeting at Berlin<br>BVM</p>
+            </div>
+            <div class="d-md-table-cell text-right pr-0 pr-md-4"><a href="ws-detail-2008a.html" class="btn btn-primary">Details</a></div>
+          </li>
+
+	<li class="d-md-table mb-4 w-100 border-bottom hover-shadow">
+            <div class="d-md-table-cell text-center p-4 bg-primary text-white
+mb-4 mb-md-0"><span class="h2 d-block">2007</span>13 Oct</div>
+            <div class="d-md-table-cell px-4 vertical-align-middle mb-4 mb-md-0">
+              <a href="ws-detail-2007b.html" class="h4 mb-3 d-block">MedVis Workhop</a>
+              <p class="mb-0">Meeting at Karlsruhe<br>CURAC</p>
+            </div>
+            <div class="d-md-table-cell text-right pr-0 pr-md-4"><a href="ws-detail-2007b.html" class="btn btn-primary">Details</a></div>
+          </li>
+	
+	  <li class="d-md-table mb-4 w-100 border-bottom hover-shadow">
+            <div class="d-md-table-cell text-center p-4 bg-primary text-white
+mb-4 mb-md-0"><span class="h2 d-block">2007</span> 07 Mar</div>
+            <div class="d-md-table-cell px-4 vertical-align-middle mb-4 mb-md-0">
+              <a href="ws-detail-2007a.html" class="h4 mb-3 d-block">MedVis Workhop</a>
+              <p class="mb-0">Meeting at Magdeburg<br>at SimVis conference</p>
+            </div>
+            <div class="d-md-table-cell text-right pr-0 pr-md-4"><a href="ws-detail-2007a.html" class="btn btn-primary">Details</a></div>
+          </li>
+
+	<li class="d-md-table mb-4 w-100 border-bottom hover-shadow">
+            <div class="d-md-table-cell text-center p-4 bg-primary text-white
+mb-4 mb-md-0"><span class="h2 d-block">2006</span> 17 Mar</div>
+            <div class="d-md-table-cell px-4 vertical-align-middle mb-4 mb-md-0">
+              <a href="ws-detail-2006.html" class="h4 mb-3 d-block">MedVis Workhop</a>
+              <p class="mb-0">Meeting at Magdeburg</p>
+            </div>
+            <div class="d-md-table-cell text-right pr-0 pr-md-4"><a href="ws-detail-2006.html" class="btn btn-primary">Details</a></div>
+          </li>
+
+	<li class="d-md-table mb-4 w-100 border-bottom hover-shadow">
+            <div class="d-md-table-cell text-center p-4 bg-primary text-white
+mb-4 mb-md-0"><span class="h2 d-block">2005</span>24 Sep</div>
+            <div class="d-md-table-cell px-4 vertical-align-middle mb-4 mb-md-0">
+              <a href="ws-detail-2005b.html" class="h4 mb-3 d-block">MedVis Workhop</a>
+              <p class="mb-0">Meeting at Berlin<br>at CURAC</p>
+            </div>
+            <div class="d-md-table-cell text-right pr-0 pr-md-4"><a href="ws-detail-2005b.html" class="btn btn-primary">Details</a></div>
+          </li>
+
+	<li class="d-md-table mb-4 w-100 border-bottom hover-shadow">
+            <div class="d-md-table-cell text-center p-4 bg-primary text-white
+mb-4 mb-md-0"><span class="h2 d-block">2005</span>04 Mar</div>
+            <div class="d-md-table-cell px-4 vertical-align-middle mb-4 mb-md-0">
+              <a href="ws-detail-2005a.html" class="h4 mb-3 d-block">MedVis Workhop</a>
+              <p class="mb-0">Meeting at Magdeburg<br>at SimVis Conference</p>
+            </div>
+            <div class="d-md-table-cell text-right pr-0 pr-md-4"><a href="ws-detail-2005a.html" class="btn btn-primary">Details</a></div>
+          </li>
+
+	<li class="d-md-table mb-4 w-100 border-bottom hover-shadow">
+            <div class="d-md-table-cell text-center p-4 bg-primary text-white
+mb-4 mb-md-0"><span class="h2 d-block">2004</span>08 Oct</div>
+            <div class="d-md-table-cell px-4 vertical-align-middle mb-4 mb-md-0">
+              <a href="ws-detail-2004.html" class="h4 mb-3 d-block">MedVis Workhop</a>
+              <p class="mb-0">Meeting at Munich<br>Organizers: CURAC</p>
+            </div>
+            <div class="d-md-table-cell text-right pr-0 pr-md-4"><a href="ws-detail-2004.html" class="btn btn-primary">Details</a></div>
+          </li>
+
+  	  <li class="d-md-table mb-4 w-100 border-bottom hover-shadow">
+            <div class="d-md-table-cell text-center p-4 bg-primary text-white
+mb-4 mb-md-0"><span class="h2 d-block">2003</span>No 2</div>
+            <div class="d-md-table-cell px-4 vertical-align-middle mb-4 mb-md-0">
+              <a href="ws-detail-2003b.html" class="h4 mb-3 d-block">MedVis Workhop</a>
+              <p class="mb-0">Second meeting.</p>
+            </div>
+            <div class="d-md-table-cell text-right pr-0 pr-md-4"><a href="ws-detail-2003b.html" class="btn btn-primary">Details</a></div>
+          </li>
+
+  	  <li class="d-md-table mb-4 w-100 border-bottom hover-shadow">
+            <div class="d-md-table-cell text-center p-4 bg-primary text-white
+mb-4 mb-md-0"><span class="h2 d-block">2003</span>No 1</div>
+            <div class="d-md-table-cell px-4 vertical-align-middle mb-4 mb-md-0">
+              <a href="ws-detail-2003a.html" class="h4 mb-3 d-block">MedVis Workhop</a>
+              <p class="mb-0">Inaugural Workshop.</p>
+            </div>
+            <div class="d-md-table-cell text-right pr-0 pr-md-4"><a href="ws-detail-2003a.html" class="btn btn-primary">Details</a></div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /notice -->
+
+<!-- footer -->
+<footer>
+  <!-- newsletter -->
+  <div class="newsletter">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5 ml-auto bg-primary py-5">
+                <h3 class="text-white"><a href="orga-join.html" class="text-white">Join the Medvis Group</a></h3>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- footer content -->
+  <div class="footer bg-footer section border-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-sm-8 mb-5 mb-lg-0">
+          <!-- logo -->
+          <a class="logo-footer" href="index.html"><img class="img-fluid mb-4" src="images/logo.png" alt="FG Visual Computing in Biology and Medicine Logo"></a>
+          <ul class="list-unstyled text-white">
+                  <li class="mb-2">c/o Ulm University<br>
+                  Institute for Media Informatics<br>
+                  Prof. Dr Timo Ropinski<br>
+                  D-89069 Ulm</li>
+                  <li class="mb-2"><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <!-- company -->
+        <div class="col-lg-4 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
+          <h4 class="text-white mb-5">SITE MAP</h4>
+          <ul class="list-unstyled text-white">
+            <li class="mb-3"><a class="text-white" href="mission.html">Mission</a></li>
+            <li class="mb-3">Organisation &gt; <a class="text-white" href="orga-gremium.html">Committee</a></li>
+            <li class="mb-3">Organisation &gt; <a class="text-white" href="orga-group.html">Members</a></li>
+            <li class="mb-3">Organisation &gt; <a class="text-white" href="orga-join.html">Become a member</a></li>
+            <li class="mb-3">Workshops &gt; <a class="text-white" href="workshop.html">Workshops</a></li>
+            <li class="mb-3">Workshops &gt; <a class="text-white" href="workshop-vcbm.html">Contributions to VCBM</a></li>
+            <li class="mb-3">Award &gt; <a class="text-white" href="award.html">Medvis Award</a></li>
+            <li class="mb-3">Award &gt; <a class="text-white" href="award.html">Application</a></li>
+            <li class="mb-3"><a class="text-white" href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <!-- links -->
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
+          <h4 class="text-white mb-5">LINKS</h4>
+          <ul class="list-unstyled text-white">
+            <li class="mb-3"><a class="text-white" href="https://gi.de/GI" target="_blank"><i class="ti-link"></i>GI</a></li>
+            <li class="mb-3"><a class="text-white" href="https://www.curac.org/en/" target="_blank" alt="CURAC eV"><i class="ti-link"></i>CURAC</a></li>
+            <li class="mb-3"><a class="text-white" href="http://medvis.org/" target="_blank" alt="External community website"><i class="ti-link"></i>medvis.org</a></li>
+          </ul>
+        </div>
+        <!-- About and Privacy -->
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
+          <h4 class="text-white mb-3">ABOUT &amp; PRIVACY</h4>
+          <ul class="list-unstyled">
+            <li class="mb-3"><a class="text-white" href="about.html">About this website</a></li>
+            <li class="mb-3"><a class="text-white" href="privacy.html">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- copyright -->
+  <div class="copyright py-4 bg-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 text-sm-left text-center">
+          <p class="mb-0 text-white">Copyright
+            <script>
+              var CurrentYear = new Date().getFullYear()
+              document.write(CurrentYear)
+            </script>
+            &copy; <a href="https://www.fg-medvis.de">Forschungsgruppe Visual Computing in Biology and Medicine</a><br>
+            Acknlowedgement for Bootstrap Theme By <a href="https://themefisher.com">themefisher.com</a>.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- /footer -->
+
+<!-- jQuery -->
+<script src="plugins/jQuery/jquery.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="plugins/bootstrap/bootstrap.min.js"></script>
+<!-- slick slider -->
+<script src="plugins/slick/slick.min.js"></script>
+<!-- aos -->
+<script src="plugins/aos/aos.js"></script>
+<!-- venobox popup -->
+<script src="plugins/venobox/venobox.min.js"></script>
+<!-- mixitup filter -->
+<script src="plugins/mixitup/mixitup.min.js"></script>
+<!-- Main Script -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
