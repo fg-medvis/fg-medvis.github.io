@@ -158,7 +158,7 @@ h6, .h6 {
 }
 
 .btn-primary {
-  background: #7296b6;
+  background: #A32638;
   color: #fff;
 }
 
@@ -176,7 +176,7 @@ h6, .h6 {
 }
 
 .btn-primary:hover {
-  background: #7296b6;
+  background: #A32638;
   color: #182b45;
 }
 
@@ -184,8 +184,8 @@ h6, .h6 {
 .btn-primary:not(:disabled):not(.disabled):active,
 .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #7296b6;
-  border-color: #7296b6;
+  background-color: #A32638;
+  border-color: #A32638;
 }
 
 .btn-secondary {
@@ -271,7 +271,7 @@ img {
 }
 
 a {
-  color: #7296b6;
+  color: #A32638;
 }
 
 a,
@@ -294,15 +294,15 @@ select:focus {
 }
 
 a:hover {
-  color: #7296b6;
+  color: #d85a6d;
 }
 
 a.text-primary:hover {
-  color: #7296b6 !important;
+  color: #d85a6d !important;
 }
 
 a.text-light:hover {
-  color: #7296b6 !important;
+  color: #d85a6d !important;
 }
 
 h4 {
@@ -310,7 +310,7 @@ h4 {
 }
 
 a h4:hover {
-  color: #7296b6;
+  color: #d85a6d;
 }
 
 .slick-slide {
@@ -366,7 +366,7 @@ a h4:hover {
 }
 
 .bg-primary {
-  background: #7296b6 !important;
+  background: #A32638 !important;
 }
 
 .bg-secondary {
@@ -378,8 +378,9 @@ a h4:hover {
 }
 
 .text-primary {
-  color: #ff8a06 !important;
+  color: #d3455a !important;
 }
+
 
 .text-color {
   color: #041847;
@@ -537,24 +538,24 @@ textarea.form-control {
 @media (max-width: 991px) {
   .header {
     position: static !important;
-    background: #7296b6;
+    background: #A32638;
   }
 }
 
 .navigation {
-  background-image: linear-gradient(to right, transparent 50%, #7296b6 50%);
+  background-image: linear-gradient(to right, transparent 50%, #A32638 50%);
   transition: .2s ease;
 }
 
 @media (max-width: 575px) {
   .navigation {
-    background-image: linear-gradient(to right, transparent 70%, #7296b6 30%);
+    background-image: linear-gradient(to right, transparent 70%, #A32638 30%);
   }
 }
 
 .navbar-nav {
   padding-left: 50px;
-  background: #7296b6;
+  background: #A32638;
 }
 
 @media (max-width: 991px) {
@@ -564,7 +565,7 @@ textarea.form-control {
 }
 
 .nav-bg {
-  background-color: #1a1a37;
+  background-color: #A32638;
   margin-top: -46px;
 }
 
@@ -948,7 +949,7 @@ link:focus,
 /* /teacher */
 /* footer */
 .newsletter {
-  background-image: linear-gradient(to right, transparent 50%, #7296b6 50%);
+  background-image: linear-gradient(to right, transparent 50%, #A32638 50%);
   margin-bottom: -100px;
   position: relative;
   z-index: 1;
@@ -984,7 +985,7 @@ link:focus,
 }
 
 .form-control:focus {
-  border-color: #7296b6;
+  border-color: #A32638;
   box-shadow: none;
 }
 
